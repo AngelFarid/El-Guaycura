@@ -462,4 +462,8 @@ iframe{
     .logo {
         height: 30px;
     }
+    .barra-opciones, .fa-shopping-cart {
+        font-size: 7px;
+        margin: 2px;
+    }
 }
