@@ -458,3 +458,8 @@ iframe{
         height: 140px;
    }  
 }
+@media screen and (max-width: 360px){
+    .logo {
+        height: 30px;
+    }
+}
