@@ -132,6 +132,10 @@ a, footer{
     display: flex;
     float: left;
     text-align: center;
+    justify-content: space-around;
+}
+.container-producto2{
+    inline-size: -webkit-fill-available;
 }
 .columna{
     width: 25%;
@@ -340,7 +344,7 @@ iframe{
         height: 240px;
    }
    a,footer{
-        font-size: 10px;
+        font-size: 9px;
     }
     .btn {
         margin-right: 30px;
@@ -440,8 +444,11 @@ iframe{
 }  
 
 @media screen and (max-width: 452px){
+    .logo {
+        height: 35px;
+    }
     .barra-opciones, .fa-shopping-cart {
-        font-size: 8px;
+        font-size: 7px;
         margin: 2px;
     }
     .container, .centro, .barra{
